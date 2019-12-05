@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     data_index = 0
     while data_index < data_keys.length do
       name_index = 0
-      pp data[attributes_keys[attribute_index]]
+      pp data[attributes_keys[attribute_index]][data_keys[data_index]]
       # while name_index < data[attributes_keys[attribute_index]][name_index].length
       #   puts data[attributes_keys[attribute_index]][name_index]
       #   name_index += 1
