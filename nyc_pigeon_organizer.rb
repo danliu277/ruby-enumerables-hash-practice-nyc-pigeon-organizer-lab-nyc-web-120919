@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
   while attribute_index < attributes_keys.length do
     data_index = 0
     while data_index < attributes_keys[attribute_index][data_index].length do
-      puts "key", attributes_keys[attribute_index]
-      puts "data", attributes_keys[attribute_index][data_index]
+      print "key", attributes_keys[attribute_index]
+      print "data", attributes_keys[attribute_index][data_index]
       result[attributes_keys[attribute_index]] = attributes_keys[attribute_index][data_index]
       data_index += 1
     end
