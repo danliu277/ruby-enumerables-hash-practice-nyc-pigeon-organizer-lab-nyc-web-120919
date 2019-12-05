@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
   result = {}
-  data.
+  data.each do 
   return result
 end
