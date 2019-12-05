@@ -10,10 +10,10 @@ def nyc_pigeon_organizer(data)
       name_index = 0
       data = attributes[data_keys[data_index]]
       pp data
-      # while name_index < data[attributes_keys[attribute_index]][name_index].length
-      #   puts data[attributes_keys[attribute_index]][name_index]
-      #   name_index += 1
-      # end
+      while name_index < data.length
+        puts data[name_index]
+        name_index += 1
+      end
       data_index += 1
     end
     attribute_index += 1
