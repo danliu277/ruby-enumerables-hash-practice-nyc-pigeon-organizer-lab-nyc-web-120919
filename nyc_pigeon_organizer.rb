@@ -3,6 +3,8 @@ def nyc_pigeon_organizer(data)
   data.each do |key, attributes|
     attributes.each do |value, names|
       names.each do |name|
-        if 
+        if !result[name]
+          result[name] = {}
+        end
   return result
 end
